@@ -1,0 +1,16 @@
+{
+  "plugin_id": "xsai-video-skill",
+  "kind": "skill",
+  "category": "media",
+  "display_name_zh": "星算视频 Skill",
+  "source": "xingsuan",
+  "official_badge": "星算官方",
+  "version": "1.1.0",
+  "repository": "lianying1716/xsai-video-skill",
+  "git_ref": "v1.1.0",
+  "install_payload": { "repo": "lianying1716/xsai-video-skill", "path": ".", "files": ["SKILL.md", "scripts", "runtime", "references"] },
+  "runtime_version": "0.3.0",
+  "minimum_node": ">=18",
+  "install_mode": "github_repo_root",
+  "desktop_source_untouched": true
+}

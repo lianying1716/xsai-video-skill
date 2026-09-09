@@ -1,0 +1,10 @@
+{
+  "name": "@xingsuan/xsai-video-skill",
+  "version": "1.1.0",
+  "private": false,
+  "type": "module",
+  "description": "星算外部视频 Skill：异步视频生成、参考素材与任务管理。",
+  "engines": { "node": ">=18" },
+  "bin": { "xsai-video": "scripts/video.mjs" },
+  "xsai": { "runtimeVersion": "0.3.0", "repositorySlug": "lianying1716/xsai-video-skill" }
+}
