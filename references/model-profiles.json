@@ -1,0 +1,6 @@
+{
+  "minimax-h3": {"media_type":"video","prompt_strategy":"主体→动作→镜头→时间线→声音→结尾；对白和环境声绑定到具体时间段。","strengths":["对白和环境声的结构化描述","单镜头导演简报"],"weaknesses":["时长和参考素材以实时能力卡为准"],"supported_inputs":["text_prompt","reference_image","reference_audio"]},
+  "omni": {"media_type":"video","prompt_strategy":"先选择一种主控制方式，再写动作和镜头；避免首帧、参考视频和强文字要求互相冲突。","strengths":["多模态参考探索"],"weaknesses":["当前星算侧能力标记为未验证，不默认推荐"],"supported_inputs":["text_prompt","reference_image","reference_video","reference_audio"],"evidence_level":"unverified"},
+  "seedance-2.0": {"media_type":"video","prompt_strategy":"按分镜写主体、镜头运动、时间线和转场；首帧/尾帧成对提供，并说明每个参考素材的职责。","strengths":["分镜和镜头运动","首尾帧叙事控制","参考素材导演式编排"],"weaknesses":["素材数量、时长和音频组合以实时能力卡为准"],"supported_inputs":["text_prompt","reference_image","reference_video","reference_audio","first_frame","last_frame"]},
+  "seedance2.5": {"media_type":"video","prompt_strategy":"先给出时间线和镜头节奏，再说明主体动作与声音；需要稳定开收帧时优先使用成对首尾帧。","strengths":["复杂时间线和镜头节奏"],"weaknesses":["具体参数和可用素材以实时能力卡为准"],"supported_inputs":["text_prompt","reference_image","reference_video","reference_audio","first_frame","last_frame"]}
+}
